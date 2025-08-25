@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sat Paing Thu - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">SPT</a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-cv-btn" id="nav-download-cv">
+              <span class="icon">📄</span>
+              Download CV
+            </button>
+          </li>
+          <li class="nav-item mobile-theme-toggle">
+            <button id="mobile-theme-btn" aria-label="Toggle theme">
+              <span class="sun">☀️</span>
+              <span class="moon">🌙</span>
+              Theme
+            </button>
+          </li>
+        </ul>
+        <div class="nav-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="theme-toggle">
+      <button id="theme-btn" aria-label="Toggle theme">
+        <span class="sun">☀️</span>
+        <span class="moon">🌙</span>
+      </button>
+    </div>
+
+    <main class="container">
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="profile-image">
+            <img src="me.jpeg" alt="Sat Paing Thu" />
+          </div>
+          <h1>Sat Paing Thu</h1>
+          <p class="title">Software Engineer</p>
+          <p class="location">Yangon, Myanmar</p>
+          <p class="experience">Mobile Developer</p>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>
+          Self-taught developer with 3 years of experience, including 2+ years
+          specializing in mobile development with React Native. Currently
+          transitioning into backend development, with a strong focus on
+          building scalable applications and RESTful APIs using Node.js,
+          Express.js, and Spring Framework. Aspiring Backend Architect
+          passionate about designing secure, modular systems.
+        </p>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend & Mobile</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Expo</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Spring</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">RESTful APIs</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>ONE JPN JLPT & Tokutei Learning</h3>
+            <p>
+              I contributed as a mobile developer to the development of the
+              OneJPN JLPT app, feature-rich language learning application
+              designed for JLPT and Tokutei exam preparation.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Cli</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://www.onejpn.com/jlpt"
+                target="_blank"
+                class="project-link"
+                >Download Link</a
+              >
+              <!-- <a href="#" class="project-link">Code</a> -->
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Film Freenzy</h3>
+            <p>
+              Film-Freenzy is a full-stack movie application built with the MERN
+              stack (MongoDB, Express.js, React, Node.js), featuring secure
+              authentication, a dynamic movie selection interface, and an admin
+              dashboard for content management.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+            </div>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link">Demo</a> -->
+              <a
+                href="https://github.com/Catt-168/Film-Freenzy"
+                target="_blank"
+                class="project-link"
+                >Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Project BookStore</h3>
+            <p>
+              Spring Boot application that simulates a bookstore, providing
+              RESTful APIs for managing various aspects of the business,
+              including authentication, authors, books, customers, genres,
+              orders, and publishers.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Spring Boot</span>
+              <span class="tech-tag">JPA Hibernate</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">JWT Authentication</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Catt-168/Project-BookStore"
+                target="_blank"
+                class="project-link"
+                >Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h3>Movie Recommendation Algorithm</h3>
+            <p>
+              Recommends movies similar to a given movie title using
+              content-based filtering with TF-IDF vectorization and K-Nearest
+              Neighbors (KNN) for similarity measurement.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Difflib</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Catt-168/Movie-Recommendation-Algorithm"
+                target="_blank"
+                class="project-link"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:satpaingthu168@gmail.com" class="contact-link">
+            <span class="icon">✉️</span>
+            <span>satpaingthu168@gmail.com</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/sat-paing-thu-02258316a"
+            class="contact-link"
+            target="_blank"
+          >
+            <span class="icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/Catt-168"
+            class="contact-link"
+            target="_blank"
+          >
+            <span class="icon">💻</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
