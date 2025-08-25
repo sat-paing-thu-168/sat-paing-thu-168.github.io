@@ -207,8 +207,7 @@ body {
 }
 
 [data-theme="light"] #theme-btn .moon,
-[data-theme="light"] #mobile-theme-btn .moon,
-:root #mobile-theme-btn .moon {
+[data-theme="light"] #mobile-theme-btn .moon {
   display: none;
 }
 
@@ -483,7 +482,9 @@ h2 {
   }
 
   .mobile-theme-toggle {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .theme-toggle {

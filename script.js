@@ -9,7 +9,7 @@ function initTheme() {
     document.documentElement.setAttribute("data-theme", savedTheme);
   } else {
     // Default to light theme
-    document.documentElement.setAttribute("data-theme", "light");
+    document.documentElement.setAttribute("data-theme", "dark");
   }
 
   function toggleTheme(button) {
