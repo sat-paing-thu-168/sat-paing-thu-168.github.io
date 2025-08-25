@@ -556,7 +556,7 @@ h2 {
   }
 
   .contact-links {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .project-card {
