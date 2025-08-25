@@ -208,7 +208,6 @@ body {
 
 [data-theme="light"] #theme-btn .moon,
 [data-theme="light"] #mobile-theme-btn .moon,
-:root #theme-btn .moon,
 :root #mobile-theme-btn .moon {
   display: none;
 }
